@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+gem 'activesupport'
+gem 'sucker_punch'
+gem 'actionmailer'
 gem 'cinch'
 gem 'redis'
 gem 'haml'
