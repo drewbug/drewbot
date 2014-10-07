@@ -5,7 +5,7 @@ require 'redis'
 
 require 'open-uri'
 
-CHANNELS = ['#lesswrong', '#lw-bitcoin', '#bitcoin-hidden', '##hplusroadmap', '##biohack', '##neuroscience']
+CHANNELS = ['#lesswrong', '#lw-bitcoin', '#bitcoin-hidden', '#nfcring', '##hplusroadmap', '##biohack', '##neuroscience']
 
 uri = URI.parse ENV["REDISCLOUD_URL"]
 $redis = Redis.new host: uri.host, port: uri.port, password: uri.password
